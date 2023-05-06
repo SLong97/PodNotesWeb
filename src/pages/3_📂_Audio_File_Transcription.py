@@ -60,8 +60,8 @@ if(st.session_state["authenticated"]):
     st.write("")
     audio_file = st.file_uploader("Upload Audio", type=["wav", "mp3", "m4a"])
 
-    PROCESS_UPLOADED_AUDIO_ENDPOINT = "http://52.16.213.76/process_uploaded_audio"
-    DIARIZED_SUMMARY_ENDPOINT = "http://52.16.213.76/diarized_summary"
+    PROCESS_UPLOADED_AUDIO_ENDPOINT = "http://34.246.239.57/process_uploaded_audio"
+    DIARIZED_SUMMARY_ENDPOINT = "http://34.246.239.57/diarized_summary"
 
     @st.cache_resource(show_spinner=False)
     def predict(audio_file):

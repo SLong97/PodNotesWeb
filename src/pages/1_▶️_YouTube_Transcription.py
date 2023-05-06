@@ -60,8 +60,8 @@ if(st.session_state["authenticated"]):
 
     st.write("")
     url = st.text_input("**Enter YouTube Video URL**")
-    PROCESS_VIDEO_AUDIO_ENDPOINT = "http://52.16.213.76/process_video_audio"
-    DIARIZED_SUMMARY_ENDPOINT = "http://52.16.213.76/diarized_summary"
+    PROCESS_VIDEO_AUDIO_ENDPOINT = "http://34.246.239.57/process_video_audio"
+    DIARIZED_SUMMARY_ENDPOINT = "http://34.246.239.57/diarized_summary"
 
     @st.cache_resource(show_spinner=False)
     def predict(url):

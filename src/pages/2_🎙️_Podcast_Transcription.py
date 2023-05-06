@@ -76,8 +76,8 @@ if(st.session_state["authenticated"]):
     api_key = '39c7d33dee7845df86a50e4971c1c19a'
     client = podcast_api.Client(api_key=api_key)
 
-    PROCESS_URL_AUDIO_ENDPOINT = "http://52.16.213.76/process_url_audio"
-    DIARIZED_SUMMARY_ENDPOINT = "http://52.16.213.76/diarized_summary"
+    PROCESS_URL_AUDIO_ENDPOINT = "http://34.246.239.57/process_url_audio"
+    DIARIZED_SUMMARY_ENDPOINT = "http://34.246.239.57/diarized_summary"
 
     @st.cache_resource(show_spinner=False)
     def predict(url):
