@@ -1,2 +1,5 @@
 # PodNotesWeb
-Repository containing work undertaken as a part of my final year project module.
+
+Repository for the PodNotes Streamlit web application.
+
+Find the PodNotes API here: [PodNotes](https://github.com/SLong97/PodNotes)
